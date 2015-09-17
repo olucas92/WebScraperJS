@@ -1,25 +1,12 @@
 {
-  "name": "WebScraperJS",
-  "version": "1.0.0",
-  "description": "Scraping the web",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/olucas92/WebScraperJS.git"
-  },
-  "author": "Oliver Lucas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/olucas92/WebScraperJS/issues"
-  },
-  "homepage": "https://github.com/olucas92/WebScraperJS",
-  "dependencies": {
-    "cheerio": "^0.19.0",
-    "express": "^4.13.3",
-    "request": "^2.62.0"
+  "name"         : "WebScraperJS",
+  "version"      : "0.0.1",
+  "description"  : "Scrape le web.",
+  "main"         : "server.js",
+  "author"       : "Scotch",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
   }
 }
