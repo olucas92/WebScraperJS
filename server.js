@@ -6,7 +6,17 @@ var app = express();
 
 app.get('/scrape', function(req, res){
 
-  // All the web scraping magic will happen here
+  url = 'http://www.imdb.com/title/tt1229340/'
+
+  request(url, function(error, response, html){
+    if(!error){
+
+      var $ = cheerio.load(html);
+
+      var title, release, rating;
+      var json = { title: "", release : "", rating : ""}
+    }
+  });
 
 });
 
